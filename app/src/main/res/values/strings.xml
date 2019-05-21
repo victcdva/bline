@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Bline</string>
+    <string name="facebook">Iniciar sesión con Facebook</string>
+    <string name="google">Iniciar sesión con Google</string>
+    <string name="notAccount">¿No tienes una cuenta?</string>
+    <string name="createAccount">Crear cuenta</string>
+    <string name="alreadyAccount">¿Ya tienes una cuenta?</string>
+    <string name="login">Iniciar sesión</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="name">Sebastian Ortiz</string>
+    <string name="userEmail">sebastian.ortiz@gmail.com</string>
+</resources>

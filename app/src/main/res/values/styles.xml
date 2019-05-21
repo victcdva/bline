@@ -1,0 +1,125 @@
+<resources>
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="Email">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_centerInParent">true</item>
+        <item name="android:background">@drawable/labcorreo</item>
+        <item name="android:paddingLeft">15dp</item>
+        <item name="android:textColor">#fff</item>
+        <item name="android:textColorHint">#fff</item>
+        <item name="android:layout_marginTop">20dp</item>
+        <item name="android:layout_below">@id/logo</item>
+        <item name="android:inputType">textEmailAddress</item>
+    </style>
+
+    <style name="Password">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_centerInParent">true</item>
+        <item name="android:background">@drawable/labcontra</item>
+        <item name="android:paddingLeft">15dp</item>
+        <item name="android:textColor">#fff</item>
+        <item name="android:textColorHint">#fff</item>
+        <item name="android:layout_marginTop">10dp</item>
+        <item name="android:layout_below">@id/etCorreo</item>
+        <item name="android:inputType">textPassword</item>
+    </style>
+
+    <style name="Nombre">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_centerInParent">true</item>
+        <item name="android:background">@drawable/labnombre</item>
+        <item name="android:paddingLeft">15dp</item>
+        <item name="android:textColor">#fff</item>
+        <item name="android:textColorHint">#fff</item>
+        <item name="android:layout_marginTop">10dp</item>
+        <item name="android:layout_below">@id/etcontra</item>
+        <item name="android:inputType">text</item>
+    </style>
+
+    <style name="btnLogin">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@drawable/btnlogin</item>
+        <item name="android:layout_below">@id/etcontra</item>
+        <item name="android:layout_centerInParent">true</item>
+        <item name="android:layout_marginTop">17dp</item>
+        <item name="android:textSize">10pt</item>
+    </style>
+
+    <style name="btnSignUp">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@drawable/btnlogin</item>
+        <item name="android:layout_below">@id/etnombre</item>
+        <item name="android:layout_centerInParent">true</item>
+        <item name="android:layout_marginTop">17dp</item>
+        <item name="android:textSize">10pt</item>
+    </style>
+
+    <style name="Other">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">#fff</item>
+        <item name="android:layout_centerInParent">true</item>
+        <item name="android:layout_marginTop">10dp</item>
+    </style>
+
+    <style name="Line1">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:src">@drawable/ligne1</item>
+        <item name="android:layout_toLeftOf">@id/tvOther</item>
+        <item name="android:layout_marginTop">20dp</item>
+        <item name="android:layout_marginRight">10dp</item>
+    </style>
+
+    <style name="Line2">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:src">@drawable/ligne1</item>
+        <item name="android:layout_toRightOf">@id/tvOther</item>
+        <item name="android:layout_marginTop">20dp</item>
+        <item name="android:layout_marginLeft">10dp</item>
+    </style>
+
+    <style name="btnFacebook">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@drawable/btnfacebook</item>
+        <item name="android:layout_centerInParent">true</item>
+        <item name="android:layout_marginTop">10dp</item>
+        <item name="android:textColorHint">#fff</item>
+        <item name="android:drawableLeft">@drawable/facebookicon</item>
+        <item name="android:paddingLeft">20dp</item>
+    </style>
+
+    <style name="btnGoogle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@drawable/btngoogle</item>
+        <item name="android:layout_centerInParent">true</item>
+        <item name="android:layout_marginTop">10dp</item>
+        <item name="android:textColorHint">#000</item>
+        <item name="android:drawableLeft">@drawable/googleicon</item>
+        <item name="android:paddingLeft">17dp</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+</resources>

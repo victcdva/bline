@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SignupActivity"
+    android:background="@drawable/loginbackground">
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="40dp"
+        android:src="@drawable/logo" />
+
+    <EditText
+        android:id="@+id/etCorreo"
+        android:hint="Correo"
+        style="@style/Email" />
+
+    <EditText
+        android:id="@+id/etcontra"
+        android:hint="Contraseña"
+        style="@style/Password"/>
+
+    <EditText
+        android:id="@+id/etnombre"
+        android:hint="Nombre"
+        style="@style/Nombre"/>
+
+    <Button
+        android:id="@+id/btnSignUp"
+        style="@style/btnSignUp"
+        android:hint="Registrarme"
+        android:textColorHint="#000"
+        android:onClick="screenMain"/>
+
+    <TextView
+        android:id="@+id/tvOther"
+        android:text=" o también"
+        style="@style/Other"
+        android:layout_below="@id/btnSignUp"/>
+
+    <ImageView
+        android:src="@drawable/ligne1"
+        style="@style/Line1"
+        android:layout_below="@id/btnSignUp"/>
+
+    <ImageView
+        android:src="@drawable/ligne2"
+        style="@style/Line2"
+        android:layout_below="@id/btnSignUp"/>
+
+    <Button
+        android:id="@+id/btnfacebook"
+        android:hint="@string/facebook"
+        style="@style/btnFacebook"
+        android:layout_below="@id/tvOther"/>
+
+    <Button
+        android:id="@+id/btngoogle"
+        android:hint="@string/google"
+        style="@style/btnGoogle"
+        android:layout_below="@id/btnfacebook"/>
+
+    <TextView
+        android:id="@+id/question"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/alreadyAccount"
+        android:textColor="#fff"
+        android:layout_below="@id/btngoogle"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="20dp"/>
+
+    <TextView
+        android:id="@+id/createAccount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/login"
+        android:textStyle="bold"
+        android:textColor="#F1D504"
+        android:layout_toRightOf="@id/question"
+        android:layout_below="@id/btngoogle"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="50dp"
+        android:onClick="logIn"/>
+</RelativeLayout>
