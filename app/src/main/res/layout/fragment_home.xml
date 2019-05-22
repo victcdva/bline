@@ -17,10 +17,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@id/nombreHome"
-        android:layout_marginLeft="30dp"
+        android:layout_marginLeft="5dp"
         android:layout_marginTop="30dp"
-        android:src="@drawable/serviceprovider"
-        android:onClick="serviceProvider"/>
+        android:src="@drawable/serviceprovider" />
 
     <ImageView
         android:id="@+id/enespera"
@@ -28,8 +27,8 @@
         android:layout_height="wrap_content"
         android:src="@drawable/enespera"
         android:layout_toRightOf="@id/serviceprovider"
-        android:layout_marginTop="163dp"
-        android:layout_marginLeft="10dp"/>
+        android:layout_marginTop="159dp"
+        android:layout_marginLeft="5dp"/>
 
     <ImageView
         android:id="@+id/visitasrecientes"
@@ -37,7 +36,7 @@
         android:layout_height="wrap_content"
         android:src="@drawable/visitasrecientes"
         android:layout_below="@id/serviceprovider"
-        android:layout_marginLeft="30dp"
+        android:layout_marginLeft="6dp"
         android:layout_marginTop="10dp"/>
 
     <ImageView
@@ -47,7 +46,7 @@
         android:src="@drawable/historial"
         android:layout_below="@id/enespera"
         android:layout_toRightOf="@id/visitasrecientes"
-        android:layout_marginTop="10dp"
-        android:layout_marginLeft="10dp"/>
+        android:layout_marginTop="11dp"
+        android:layout_marginLeft="6dp"/>
 
 </RelativeLayout>
