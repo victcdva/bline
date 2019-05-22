@@ -3,11 +3,11 @@ package com.gottnext.bline;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
-public class UpcomingActivity extends AppCompatActivity {
+public class RecentPlacesActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_upcoming);
+        setContentView(R.layout.activity_recent_places);
     }
 }

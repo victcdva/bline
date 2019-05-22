@@ -9,7 +9,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".UpcomingActivity"></activity>
+        <activity android:name=".RecentPlacesActivity"></activity>
         <activity android:name=".TheHomeActivity" />
         <activity
             android:name=".Home"

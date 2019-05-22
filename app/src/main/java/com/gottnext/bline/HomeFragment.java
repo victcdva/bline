@@ -17,8 +17,11 @@ public class HomeFragment extends Fragment implements View.OnClickListener {
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
         View v = inflater.inflate(R.layout.fragment_home, container, false);
 
-        ImageView imageView = v.findViewById(R.id.serviceprovider);
+        ImageView imageView = v.findViewById(R.id.visitasrecientes);
         imageView.setOnClickListener(this);
+
+        ImageView imageView2 = v.findViewById(R.id.serviceprovider);
+        imageView2.setOnClickListener(this);
         return v;
     }
 
@@ -28,6 +31,10 @@ public class HomeFragment extends Fragment implements View.OnClickListener {
             case R.id.serviceprovider:
                 Intent intent = new Intent(getActivity(), TheHomeActivity.class);
                 getActivity().startActivity(intent);
+                break;
+            case R.id.visitasrecientes:
+                Intent intent2 = new Intent(getActivity(), RecentPlacesActivity.class);
+                getActivity().startActivity(intent2);
                 break;
         }
     }
