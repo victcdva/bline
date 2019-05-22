@@ -5,11 +5,49 @@
     android:background="@drawable/loginbackground">
 
     <TextView
+        android:id="@+id/bienvenida"
+        style="@style/WelcomeText"/>
+
+    <TextView
+        android:id="@+id/nombreHome"
+        style="@style/nombreHome"/>
+
+    <ImageView
+        android:id="@+id/serviceprovider"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Inicio"
-        android:textSize="20pt"
-        android:layout_centerInParent="true"
-        android:textColor="#fff"/>
+        android:layout_below="@id/nombreHome"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="30dp"
+        android:src="@drawable/serviceprovider"
+        android:onClick="serviceProvider"/>
+
+    <ImageView
+        android:id="@+id/enespera"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/enespera"
+        android:layout_toRightOf="@id/serviceprovider"
+        android:layout_marginTop="163dp"
+        android:layout_marginLeft="10dp"/>
+
+    <ImageView
+        android:id="@+id/visitasrecientes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/visitasrecientes"
+        android:layout_below="@id/serviceprovider"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="10dp"/>
+
+    <ImageView
+        android:id="@+id/historial"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/historial"
+        android:layout_below="@id/enespera"
+        android:layout_toRightOf="@id/visitasrecientes"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"/>
 
 </RelativeLayout>

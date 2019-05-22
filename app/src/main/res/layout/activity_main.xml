@@ -67,7 +67,7 @@
         android:textColor="#fff"
         android:layout_below="@id/btngoogle"
         android:layout_marginTop="15dp"
-        android:layout_marginLeft="20dp"/>
+        android:layout_marginLeft="63dp"/>
 
     <TextView
         android:id="@+id/createAccount"
