@@ -7,13 +7,6 @@
     tools:context=".RecentPlacesActivity"
     android:background="@drawable/loginbackground">
 
-    <TextView
-        android:id="@+id/hola"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Lugares recientes ;P hahaha"
-        android:textColor="#fff"
-        android:textSize="20pt"
-        android:layout_centerInParent="true"/>
+
 
 </RelativeLayout>

@@ -4,16 +4,11 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".TheHomeActivity"
-    android:background="@drawable/loginbackground">
+    tools:context=".TheHomeActivity">
 
-    <TextView
-        android:id="@+id/hola"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Proveedor de servicio"
-        android:textColor="#fff"
-        android:textSize="20pt"
-        android:layout_centerInParent="true"/>
+    <ListView
+        android:id="@+id/listRecentPlaces"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
 
 </RelativeLayout>
