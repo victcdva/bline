@@ -9,7 +9,11 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".RecentPlacesActivity"></activity>
+        <activity android:name=".TicketActivity2"></activity>
+        <activity android:name=".TicketActivity" />
+        <activity android:name=".Parquemorelos" />
+        <activity android:name=".Eltrompo" />
+        <activity android:name=".RecentPlacesActivity" />
         <activity android:name=".TheHomeActivity" />
         <activity
             android:name=".Home"
