@@ -8,9 +8,12 @@ import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
 import android.widget.ImageView;
 
 public class HomeFragment extends Fragment implements View.OnClickListener {
+
+    private Button ubication;
 
     @Nullable
     @Override
@@ -20,8 +23,8 @@ public class HomeFragment extends Fragment implements View.OnClickListener {
         ImageView imageView2 = v.findViewById(R.id.serviceprovider);
         imageView2.setOnClickListener(this);
 
-        ImageView imageView = v.findViewById(R.id.visitasrecientes);
-        imageView.setOnClickListener(this);
+        ubication=v.findViewById(R.id.visitasrecientes);
+        ubication.setOnClickListener(this);
         return v;
     }
 
@@ -33,7 +36,7 @@ public class HomeFragment extends Fragment implements View.OnClickListener {
                 getActivity().startActivity(intent);
                 break;
             case R.id.visitasrecientes:
-                Intent intent2 = new Intent(getActivity(), RecentPlacesActivity.class);
+                Intent intent2 = new Intent(getActivity(), MapsActivity.class);
                 getActivity().startActivity(intent2);
                 break;
         }
